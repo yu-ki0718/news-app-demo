@@ -11,8 +11,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const URL =
-  'https://asia-northeast1-news-app-udemy.cloudfunctions.net/dummy_news';
+const URL = `http://newsapi.org/v2/top-headlines?country=jp&apiKey=${Constants.manifest.extra.newsApiKey}`;
 
 export default HomeScreen = ({ navigation }) => {
   const [articles, setArticles] = useState([]);
