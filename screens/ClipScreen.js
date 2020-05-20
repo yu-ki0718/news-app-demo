@@ -20,7 +20,7 @@ export default ClipScreen = ({ navigation }) => {
         data={clips}
         renderItem={({ item }) => (
           <ListItem
-            imageURL={item.urlToImage}
+            imageUrl={item.urlToImage}
             title={item.title}
             author={item.author}
             onPress={() => navigation.navigate('Article', { article: item })}
