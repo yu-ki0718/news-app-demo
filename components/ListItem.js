@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   text: {
-    fontSize: 20,
+    fontSize: 16,
   },
   subText: {
     fontSize: 12,
